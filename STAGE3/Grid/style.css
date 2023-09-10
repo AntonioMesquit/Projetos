@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: grid;
+    height: 100vh;
+    list-style: none;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 20px;
+}
